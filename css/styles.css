@@ -8,14 +8,18 @@ body {
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 3.5rem; 
     line-height: 1.5;
     font-weight: 900;
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
     font-weight: bold;
 }
 
@@ -75,4 +79,42 @@ p {
 
 .feature-icons:hover {
     color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+/* Press release */
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/** Pricing section */
+#pricing {
+    padding:100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
 }
